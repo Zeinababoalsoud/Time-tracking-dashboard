@@ -1,0 +1,83 @@
+.card {
+  height: 215px;
+  min-width: 230px;
+  padding-top: 40px;
+  display: flex;
+  flex: 1;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.Icon {
+  cursor: pointer;
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  width: 64px;
+  
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  justify-content: space-between;
+  color: white;
+  background-color: hsl(235, 46%, 20%);
+  z-index: 1;
+  cursor: pointer;
+}
+.content:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  height: 6px;
+  color: hsl(236, 100%, 87%);
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.durationHours {
+   font-size: 40px;
+}
+.durationWeeks {
+font-size: 11px;
+color: hsl(236, 100%, 87%);
+}
+@media only screen and (max-width: 750px) {
+  .card {
+      height: 140px;
+      padding-top: 30px;
+  }
+  .cardIcon {
+    width: 58px;
+  }
+  .header img {
+    height: 4px;
+  }
+  .body  {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .durationHours {
+    font-size: 25px;
+  }
+  .durationWeeks  {
+    font-size: 11px;
+  }
+}
+

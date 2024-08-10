@@ -1,0 +1,58 @@
+{
+    "posts": [
+        {
+            "backColor": "hsl(15, 100%, 70%)",
+            "Icon": "./src/assets/icon-work.svg",
+            "Text": "Work",
+            "Img": "./src/assets/icon-ellipsis.svg",
+            "TimeHours": "32hrs",
+            "Weeks": "Last Week - 36hrs",
+            "uniqueID": "1"
+        },
+        {
+            "backColor": "hsl(195, 74%, 62%)",
+            "Icon": "./src/assets/icon-play.svg",
+            "Text": "Play",
+            "Img": "./src/assets/icon-ellipsis.svg",
+            "TimeHours": "10hrs",
+            "Weeks": "Last Week - 8hrs",
+            "uniqueID": "2"
+        },
+        {
+            "backColor": "hsl(348, 100%, 68%)",
+            "Icon": "./src/assets/icon-study.svg",
+            "Text": "Study",
+            "Img":"./src/assets/icon-ellipsis.svg",
+            "TimeHours": "4hrs",
+            "Weeks": "Last Week - 7hrs",
+            "uniqueID": "3"
+        },
+        {
+            "backColor": "hsl(145, 58%, 55%)",
+            "Icon": "./src/assets/icon-exercise.svg",
+            "Text": "Exercise",
+            "Img":"./src/assets/icon-ellipsis.svg",
+            "TimeHours": "4hrs",
+            "Weeks": "Last Week - 5hrs",
+            "uniqueID": "4"
+        },
+        {
+            "backColor": "hsl(264, 64%, 52%)",
+            "Icon": "./src/assets/icon-social.svg",
+            "Text": "Social",
+            "Img": "./src/assets/icon-ellipsis.svg",
+            "TimeHours": "5hrs",
+            "Weeks": "Last Week - 10hrs",
+            "uniqueID": "5"
+        },
+        {
+            "backColor": "hsl(43, 84%, 65%)",
+            "Icon": "./src/assets/icon-self-care.svg",
+            "Text": "Self Care",
+            "Img": "./src/assets/icon-ellipsis.svg",
+            "TimeHours": "2hrs",
+            "Weeks": "Last Week - 2hrs",
+            "uniqueID": "6"
+        }
+    ]
+  }
